@@ -1,6 +1,6 @@
-a = "200.2"
-print(a, type(a))
-
-a = float(a) #200.2
-a = int(a) #200
-print(a, type(a))
+""" 
+check the speed is danger or not
+safe limit is 80
+"""
+speed = int(input("Enter Speed:"))
+print(f"Driving Safe: {speed<80}")

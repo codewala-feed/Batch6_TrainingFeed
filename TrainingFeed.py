@@ -1,6 +1,4 @@
-""" 
-check the speed is danger or not
-safe limit is 80
-"""
-speed = int(input("Enter Speed:"))
-print(f"Driving Safe: {speed<80}")
+sentence = "Once Upon A Time"
+words = sentence.split()
+for w in words:
+    print(w[0].isupper())

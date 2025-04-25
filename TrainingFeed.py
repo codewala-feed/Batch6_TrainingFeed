@@ -1,5 +1,9 @@
-def nums(n):
-    if (n > 0):
-        print(n)
-        nums(n-1) 
-nums(5)
+import calculation as clc
+
+print(dir(clc))
+
+print(clc.add.addition(10, 20))
+print(clc.sub.subtraction(10,5))
+print(clc.mul.multiplication(10,5))
+print(clc.wish.wishUser("akhil"))
+print(clc.wish.wishUser("nikhil"))
